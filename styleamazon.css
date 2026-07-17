@@ -1,0 +1,34 @@
+#navbar{
+   height:60px;
+background-color:#0f1111;
+
+}
+#search{
+    background-color:white;
+}
+#searchbutton{
+background-color: rgb(228, 157, 2);
+
+}
+#amazon{
+    color: rgb(228, 157, 2);
+    margin-right:100px ;
+    text-decoration-line: none;
+}
+
+#cart{
+     color: white;
+    margin-right:100px ;
+    text-decoration-line: none;
+}
+#account{
+     color: white;
+    margin-right:100px ;
+    text-decoration-line: none;
+}
+#contact{
+     color: white;
+    margin-right:100px ;
+    text-decoration-line: none;
+
+}
