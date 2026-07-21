@@ -174,5 +174,122 @@ justify-content:center;
     align-items: center;
     justify-content:center;
     font-size: 0.85rem;
+    margin-bottom:25px;
    
+}
+/* -----------shopsection */
+.shop-section{
+background-color: #e2e7e6;
+display:flex;
+flex-wrap:wrap ;
+justify-content: space-evenly;
+
+}
+
+.box{
+    margin-top:15px;
+    background-color: white;
+    border:2px solid black;
+height:345px;
+width:24%;
+padding:20px 0px 15px;
+}
+.b1-img{
+       background-image:url("textures/box1_image.jpg") ;
+}
+.b2-img{
+       background-image:url("textures/box2_image.jpg") ;
+}
+.b3-img{
+       background-image:url("textures/box3_image.jpg") ;
+}
+.b4-img{
+       background-image:url("textures/box4_image.jpg") ;
+}
+.b5-img{
+       background-image:url("textures/box5_image.jpg") ;
+}
+.b6-img{
+       background-image:url("textures/box6_image.jpg") ;
+}
+.b7-img{
+       background-image:url("textures/box7_image.jpg") ;
+}
+.b8-img{
+       background-image:url("textures/box8_image.jpg") ;
+}
+.b0-img{
+    height:250px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.content-box{
+margin-left: 1rem;
+margin-right: 1rem;
+
+}
+.content-box p{
+color:#007185;
+}
+/* =======foooter designing */
+footer{
+    margin-top: 15px;
+}
+.fp1{
+height:50px;
+background-color: #374751;
+color:white;
+display:flex;
+align-items: center;
+justify-content: center;
+font-size: 0.85rem;
+}
+.footer-grid{
+    height:300px;
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+padding:50px;
+}
+.footer-col a{
+font-size: 0.85rem;
+    color:white;
+    text-decoration:none ;
+}
+.footer-col li{
+    list-style: none;
+}
+.footer-panel3{
+height:70px;
+background-color:#222f3d ;
+border-top:0.5px solid white;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.fo-logo{
+height:50px;
+width:100px;
+background-image:url("textures/amazon_logo.png");
+background-size: cover;
+
+}
+.footer-panel4{
+height:80px;
+background-color: #0f1111;
+color:white;
+
+font-size: 0.7rem;
+text-align: center;
+}
+.pages{
+    padding-top:25px;
+
+}
+.copyrigt{
+padding-top: 6px;
 }
