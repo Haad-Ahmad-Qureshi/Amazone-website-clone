@@ -125,3 +125,28 @@ font-weight:700;
     font-size: 30px;
 }
 /* ================panel============ */
+.panel{
+    background-color: #222f3d;
+color:white;
+height:40px;
+display:flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.all-icon{
+
+align-items: center;
+}
+.panel-options p{
+    display:inline;
+    margin-left:10px;
+}
+.panel-options{
+    width:70%;
+    font-size: 0.85rem;
+
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight:700;
+}
