@@ -134,7 +134,7 @@ align-items: center;
 justify-content: space-evenly;
 }
 .all-icon{
-
+width:60px;
 align-items: center;
 }
 .panel-options p{
@@ -149,4 +149,30 @@ align-items: center;
 .panel-deals{
     font-size:0.9rem;
     font-weight:700;
+}
+
+/* =============hero section */
+.herosection{
+height:300px;
+background-image: url("textures/hero_image.jpg");
+background-size: cover;
+display:flex;
+align-items: flex-end;
+justify-content:center;
+
+}
+#amazonlink{
+    text-decoration:none ;
+    color:#007185
+}
+.hero-message{
+     width:80%;
+    color:black;
+    height:40px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 0.85rem;
+   
 }
