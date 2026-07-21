@@ -1,34 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif ;
+    border:border-box;
+}
+
 #navbar{
-   height:60px;
-background-color:#0f1111;
-
+    
+    height:60px;
+    width:100%;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
 }
-#search{
-    background-color:white;
-}
-#searchbutton{
-background-color: rgb(228, 157, 2);
-
-}
-#amazon{
-    color: rgb(228, 157, 2);
-    margin-right:100px ;
-    text-decoration-line: none;
+/* -----------amazon logo box1--------------- */
+#navlogo {
+height:50px;
+width:110px;
 }
 
-#cart{
-     color: white;
-    margin-right:100px ;
-    text-decoration-line: none;
+.logo{
+    height:50px;
+    width:100%;
+background-image:url("amazon_logo.png");
+background-size: cover;
 }
-#account{
-     color: white;
-    margin-right:100px ;
-    text-decoration-line: none;
+.border{
+ border:1.5px solid transparent;   
 }
-#contact{
-     color: white;
-    margin-right:100px ;
-    text-decoration-line: none;
+
+.border:hover {
+border:1.5px solid white;
+}
+
+/* -----------------address box navbar--------------------- */
+.address{
+height:50px;
+width:110px;
+
+}
+.add-icon{
+display:flex;
+    align-items:center;
+}
+.add-first{
+      padding-top:10px;
+    margin-left:20px ;
+color:#CCCCCC;
+font-size:0.75rem;
+}
+
+.add-sec{
+    margin-left:1px ;
+font-size:1rem;
 
 }
